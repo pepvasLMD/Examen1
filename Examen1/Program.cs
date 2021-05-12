@@ -125,7 +125,7 @@ namespace Examen1
             if (numero < 0)
                 return "";
 
-            if(numero > 365)
+            if(numero >= 365)
             {
                 A = numero / 365;
                 numero = numero % 365;
